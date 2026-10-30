@@ -1,0 +1,18 @@
+update 18:40 25/10/2026 V1.0.0
+1. Kunci input setelah diverifikasi Dinas
+2. Periode laporan per semester
+3. Urutan sekolah tercepat dan terlama
+4. Tabel rinci pada admin
+5. Ekspor dan unduh di fitur rekap
+6. Template & Impor Nilai (tombol emas)
+7. Perbaikan jagir swasta
+
+update 11:00 26/10/2026 V1.0.1
+1. Perbaikan UI dan UX
+2. Penyesuaian Dekstop dan Smartphone
+3. Perubahan Hak Cipta
+
+update 10:20 29/10/2026 V1.0.2
+1. Total Pendapatan -> Total Penerimaan
+2. Total Belanja -> Total Pengeluaran (row 840-854)
+3. Pemberitahuan WA Otomatis

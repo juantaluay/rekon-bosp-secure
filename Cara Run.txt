@@ -1,0 +1,29 @@
+rekon-bosp-server-secure/
+├── data/
+│   ├── users.json          ← Akun login
+│   ├── schools.json        ← Master sekolah
+│   ├── monthly_2024.json   ← Realisasi 2024
+│   ├── monthly_2026.json   ← Realisasi 2026
+│   ├── sp2b_kab_2024.json  ← SP2B kabupaten
+│   └── audit.log           ← Log aktivitas
+├── uploads/                ← File PDF yang diunggah
+├── public/                 ← Frontend (HTML)
+└── server.js               ← Backend
+
+1. cp .env.example .env
+2. Edit .env → isi JWT_SECRET (string acak panjang)
+3. npm install
+4. npm run init-db
+5. npm run hash-passwords   (jika migrasi dari versi lama)
+6. npm start
+7. Buka http://localhost:3000
+
+Akun default: admin / admin2024
+GANTI PASSWORD SEBELUM DIPAKAI OPERASIONAL!
+
+cd C:\Users\Pongo\Downloads\rekon-bosp-server-secure\rekon-bosp-server-secure
+npm install
+copy .env.example .env
+npm run init-db
+npm run hash-passwords
+npm start
